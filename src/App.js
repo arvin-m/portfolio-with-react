@@ -16,6 +16,7 @@ function App() {
       <Navbar/>
       <div className='bg'>
         <AboutMe/>
+        <Card/>
       </div>
 
       

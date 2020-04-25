@@ -13,7 +13,7 @@ function Navbar() {
         <div className="container-fluid padding" id="first-main-container">
             <div className="container" id="space"></div>
                 {/* about me section */}
-            <div className="container shadow-lg p-3 mb-5 bg-white rounded">
+            <div className="container shadow-lg p-3 mb-5 bg-white rounded " id="mainContainer">
 
                 <div className="row justify-content-start ">
 
