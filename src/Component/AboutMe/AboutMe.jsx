@@ -17,8 +17,8 @@ function Navbar() {
 
                 <div className="row justify-content-start ">
 
-                    <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                         <img className="col-sm rounded" src="./Assets/img/arvin 2.png" alt="Assets\images\arvin 2.png"/>
+                    <div className=" col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                         <img className="col-sm rounded-circle" src="./Assets/img/arvin 2.png" alt="Assets\images\arvin 2.png"/>
                     </div>
                     <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                         <p className="paragraph">My name is Arvin Mahmoudi. I was born on September 21,1985 in a small town

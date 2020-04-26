@@ -16,7 +16,9 @@ function App() {
       <Navbar/>
       <div className='bg'>
         <AboutMe/>
+        <div className="container">
         <Card/>
+        </div>
       </div>
 
       
