@@ -40,7 +40,7 @@ function Card() {
 
         },
         {
-            id: 4,
+            id: 5,
             title: "Template Engine",
             comment: " Node CLI application that generates an HTML webpage that displays summaries for each person!",
             img: "Assets/img/project-pic/template-engine_1.png",
@@ -49,7 +49,7 @@ function Card() {
 
         },
         {
-            id: 5,
+            id: 6,
             title: "Burger App",
             comment: "Eat-Da-Burger is a burger logger app with MySQL, Node, Express, Handlebars and a homemade ORM .",
             img: "Assets/img/project-pic/hamburger_1.png",
@@ -58,7 +58,7 @@ function Card() {
 
         },
         {
-            id: 6,
+            id: 7,
             title: "Stop and shop App",
             comment: "An online store application",
             img: "Assets/img/project-pic/shopping_1.png",
@@ -67,7 +67,7 @@ function Card() {
 
         },
         {
-            id: 7,
+            id: 8,
             title: "Workout Tracker",
             comment: " Aplication for tracking on your workot .Stay Fit !",
             img: "Assets/img/project-pic/activity_tracker_1.png",
@@ -76,7 +76,7 @@ function Card() {
 
         },
         {
-            id: 8,
+            id: 9,
             title: "Employee Directory",
             comment: "Creating a random employee directory with REACT !",
             img: "Assets/img/project-pic/employee_directory_1.png",

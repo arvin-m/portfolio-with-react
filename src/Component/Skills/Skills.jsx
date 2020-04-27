@@ -2,6 +2,66 @@ import React from 'react';
 import '../Skills/style.css';
 
 function Skills() {
+    const state=[
+        {   id:1,
+            class:"devicon-javascript-plain colored",
+        },
+        {   id:2,
+            class:"devicon-jquery-plain colored",
+        },
+        {   id:3,
+            class:"devicon-nodejs-plain colored",
+        },
+        {   id:4,
+            class:"devicon-express-original colored",
+        },
+        {   id:5,
+            class:"devicon-sequelize-plain colored",
+        },
+        {   id:6,
+            class:"devicon-mysql-plain-wordmark colored",
+        },
+        {   id:7,
+            class:"devicon-postgresql-plain colored",
+        },
+        {   id:8,
+            class:"devicon-mongodb-plain-wordmark colored",
+        },
+        {   id:9,
+            class:"devicon-heroku-original colored",
+        },
+        {   id:10,
+            class:"devicon-react-original colored",
+        },
+        {   id:11,
+            class:"devicon-html5-plain colored",
+        },
+        {   id:12,
+            class:"devicon-css3-plain-wordmark colored",
+        },
+        {   id:13,
+            class:"devicon-bootstrap-plain colored",
+        },
+        {   id:14,
+            class:"devicon-git-plain colored",
+        },
+        {   id:15,
+            class:"devicon-github-plain colored",
+        },
+        {   id:16,
+            class:"devicon-gitlab-plain colored",
+        },
+        {   id:17,
+            class:"devicon-visualstudio-plain colored",
+        },
+        {   id:18,
+            class:"devicon-webpack-plain-wordmark colored",
+        },
+        {   id:19,
+            class:"devicon-slack-plain-wordmark colored",
+        }
+
+    ]
    
 
 
@@ -12,25 +72,12 @@ function Skills() {
              <h1 > Skills </h1>
            </div>
             <div className="row">
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-javascript-plain colored "></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-jquery-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-nodejs-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-express-original colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-sequelize-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-mysql-plain-wordmark colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-postgresql-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-mongodb-plain-wordmark colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-heroku-original colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-react-original colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-html5-plain colored"></i>
-                <i class="devicon-css3-plain-wordmark colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-bootstrap-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-git-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-github-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-gitlab-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-visualstudio-plain colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-webpack-plain-wordmark colored"></i>
-                <i className="col-xs-2 col-sm-2 col-md-2 devicon-slack-plain-wordmark colored"></i>
+                {state.map(element=>{
+                    return(
+                        <i className={element.class +" col-3"} key={element.id}></i>
+                    )
+                })}
+                
             </div>
        </div>
         
@@ -41,3 +88,4 @@ function Skills() {
 
 
 export default Skills;
+

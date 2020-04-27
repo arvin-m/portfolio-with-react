@@ -27,16 +27,16 @@ function Navbar() {
                                 title="Home"><span className="label"></span></a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://docs.google.com/document/d/1FBvVz4kn17kEJi0vg4CZHxDKFY3vfaZVl92a30ysggM/edit?usp=sharing" className=" nav-link far fa-file-alt" data-toggle="tooltip" data-placement="bottom"
+                            <a href="https://docs.google.com/document/d/1FBvVz4kn17kEJi0vg4CZHxDKFY3vfaZVl92a30ysggM/edit?usp=sharing" target="_blank" className=" nav-link far fa-file-alt" data-toggle="tooltip" data-placement="bottom"
                                 title="Resume" ><span className="label"></span></a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://www.linkedin.com/in/arvin-mahmoudi" className=" nav-link  fab fa-linkedin"
+                            <a href="https://www.linkedin.com/in/arvin-mahmoudi" target="_blank" className=" nav-link  fab fa-linkedin"
                                 data-toggle="tooltip" data-placement="bottom" title="Linkedin" ><span
                                     className="label"></span></a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://github.com/arvin-m" className="nav-link  fab fa-github-square "
+                            <a href="https://github.com/arvin-m" target="_blank" className="nav-link  fab fa-github-square "
                                 data-toggle="tooltip" data-placement="bottom" title="GitHub"><span className="label"></span></a>
                         </li>
                     </ul>
