@@ -1,5 +1,5 @@
 .card-link{
-   color: #cc9752 !important;
+   color: tomato !important;
     font-size: 1.5rem;
     margin-right: 10px;
  
@@ -10,4 +10,9 @@ h5,p{
 .card{
     margin-bottom:20px !important;
 
+}
+.box{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: tomato;
 }

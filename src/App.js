@@ -4,6 +4,7 @@ import AboutMe from './Component/AboutMe/AboutMe';
 import Card from './Component/Card/Card';
 import Footer from './Component/Footer/Footer';
 import Carousel from './Component/Carousel/Carousel';
+import Skills from './Component/Skills/Skills';
 
 import './Component/App.css';
 
@@ -19,6 +20,7 @@ function App() {
       <Carousel />
       <AboutMe />
       <Card />
+      <Skills/>
       <Footer />
     </React.Fragment>
   );

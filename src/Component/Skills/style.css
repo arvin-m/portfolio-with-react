@@ -1,0 +1,14 @@
+i{
+    padding-bottom: 3rem;
+    font-size:5rem;
+}
+.container{
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+}
+
+.box{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: tomato;
+}
