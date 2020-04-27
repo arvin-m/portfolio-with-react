@@ -1,11 +1,14 @@
 .paragraph{
     line-height: 36px;
     text-align: justify;
+    color: rgb(153, 134, 52);
 }
 #space{
     padding: 40px;
 }
 #mainContainer{
-    background-color:#e6e6ee8a !important;
+   
+    margin-bottom: 6rem;
     
 }
+

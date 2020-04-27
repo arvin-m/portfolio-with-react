@@ -5,36 +5,29 @@ function Navbar() {
 
 
 
-
-
-
     return (
 
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-
-
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
                 <div>
                     <h1 className="navbar-brand ">Arvin Mahmoudi</h1>
                 </div>
                 <div>
-                    <p id="header-p"> full stack web developer</p>
+                    <p className="header-p animated hinge delay-3s  ">Software Engineer</p>
+                    <p className="header-p2  ">Software Engineer</p>
                 </div>
-
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
-
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <a href="index.html" className="nav-link fas fa-home" data-toggle="tooltip" data-placement="bottom"
                                 title="Home"><span className="label"></span></a>
                         </li>
-
                         <li className="nav-item">
-                            <a href="resume.html" className=" nav-link far fa-file-alt" data-toggle="tooltip" data-placement="bottom"
+                            <a href="https://docs.google.com/document/d/1FBvVz4kn17kEJi0vg4CZHxDKFY3vfaZVl92a30ysggM/edit?usp=sharing" className=" nav-link far fa-file-alt" data-toggle="tooltip" data-placement="bottom"
                                 title="Resume" ><span className="label"></span></a>
                         </li>
                         <li className="nav-item">
@@ -46,13 +39,10 @@ function Navbar() {
                             <a href="https://github.com/arvin-m" className="nav-link  fab fa-github-square "
                                 data-toggle="tooltip" data-placement="bottom" title="GitHub"><span className="label"></span></a>
                         </li>
-
-
-
                     </ul>
                 </div>
             </div>
-    </nav>
+        </nav>
 
 
     )
