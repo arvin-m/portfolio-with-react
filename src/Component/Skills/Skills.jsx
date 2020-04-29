@@ -19,7 +19,7 @@ function Skills() {
             class:"devicon-sequelize-plain colored",
         },
         {   id:6,
-            class:"devicon-mysql-plain-wordmark colored",
+            class:"devicon-mysql-plain colored",
         },
         {   id:7,
             class:"devicon-postgresql-plain colored",
@@ -31,7 +31,7 @@ function Skills() {
             class:"devicon-heroku-original colored",
         },
         {   id:10,
-            class:"devicon-react-original colored",
+            class:"devicon-react-original-wordmark colored",
         },
         {   id:11,
             class:"devicon-html5-plain colored",
@@ -67,14 +67,14 @@ function Skills() {
 
 
     return (
-       <div className="container">
+       <div className="container ">
            <div className="box rounded">
-             <h1 > Skills </h1>
+             <h1> Skills </h1>
            </div>
-            <div className="row">
+            <div className="row space ">
                 {state.map(element=>{
                     return(
-                        <i className={element.class +" col-3"} key={element.id}></i>
+                        <i className={element.class +" col-2"} key={element.id}></i>
                     )
                 })}
                 
