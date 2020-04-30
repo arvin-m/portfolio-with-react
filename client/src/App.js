@@ -20,7 +20,7 @@ function App() {
       <Carousel />
       <AboutMe />
       <Card />
-      <Skills/>
+      <Skills />
       <Footer />
     </React.Fragment>
   );
