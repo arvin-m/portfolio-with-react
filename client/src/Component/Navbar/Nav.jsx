@@ -10,11 +10,10 @@ function Navbar() {
         <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
                 <div>
-                    <h1 className="navbar-brand ">Arvin Mahmoudi</h1>
+                    <h1 className="navbar-brand  ">Arvin Mahmoudi</h1>
                 </div>
                 <div>
-                    <p className="header-p animated hinge delay-3s  ">Software Engineer</p>
-                    <p className="header-p2  ">Software Engineer</p>
+                    <p className="header-p">Software Engineer</p>
                 </div>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
