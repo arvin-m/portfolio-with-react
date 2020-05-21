@@ -6,7 +6,7 @@ function Card() {
         {
             id: 1,
             title: "Hiker Guide",
-            comment: "looking for trial around you or specific city ? this app is created for you !",
+            comment: "looking for trail around you or specific city ? this app is created for you !",
             img: "Assets/img/project-pic/hiking_1.png",
             repo_link: "https://github.com/arvin-m/theHikersGuide",
             live_link: "https://aagrosse.github.io/theHikersGuide/"
@@ -69,7 +69,7 @@ function Card() {
         {
             id: 8,
             title: "Workout Tracker",
-            comment: " Aplication for tracking on your workot .Stay Fit !",
+            comment: " Aplication for tracking on your workout.Stay Fit !",
             img: "Assets/img/project-pic/activity_tracker_1.png",
             repo_link: "https://github.com/arvin-m/Workout_Tracker",
             live_link: "https://calm-hamlet-90119.herokuapp.com/"
