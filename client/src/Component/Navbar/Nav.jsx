@@ -26,7 +26,7 @@ function Navbar() {
                                 title="Home"><span className="label"></span></a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://drive.google.com/file/d/1ArWsgdkEJh671h-nMikRu1kk4m_yCGm_/view?usp=sharing" target="_blank" className=" nav-link far fa-file-alt" data-toggle="tooltip" data-placement="bottom"
+                            <a href="https://drive.google.com/file/d/1YAJSV8i7eszpW7brQY4inL7kwoVw0aPC/view?usp=sharing" target="_blank" className=" nav-link far fa-file-alt" data-toggle="tooltip" data-placement="bottom"
                                 title="Resume" ><span className="label"></span></a>
                         </li>
                         <li className="nav-item">
