@@ -92,6 +92,16 @@ function Card() {
             repo_link: "https://github.com/arvin-m/google-books-search",
             live_link: "https://google-book-search--react.herokuapp.com/"
 
+        },
+        ,
+        {
+            id: 11,
+            title: "Salty shop ",
+            comment: "MERN Stack eCommerce Web application!",
+            img: "Assets/img/project-pic/shopping_1.png",
+            repo_link: "https://github.com/arvin-m/salty-shop",
+            live_link: "https://salty-shop.herokuapp.com/"
+
         }
         
     ]
